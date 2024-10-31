@@ -1,0 +1,23 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# scoop
+scoop/
+
+# .scripts
+.scripts/
+
+# .history
+.history/
+
+# .condarc
+.condarc
+
+# .gitconfig
+.gitconfig
