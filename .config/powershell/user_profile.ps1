@@ -10,3 +10,4 @@ Import-Module -Name Terminal-Icons
 
 # PSReadLine
 Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadLineOption -EditMode Emacs
