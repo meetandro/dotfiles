@@ -10,26 +10,26 @@ return {
         ██║ ╚═╝ ██║███████╗███████╗   ██║   ██║  ██║██║ ╚████║██████╔╝██║  ██║╚██████╔╝
         ]]
 
-        logo = string.rep("\n", 8) .. logo .. "\n\n"
+        logo = string.rep("\n", 5) .. logo .. "\n\n\n\n"
         opts.config.header = vim.split(logo, "\n")
         opts.config.center = {
             {
-                action = "lua LazyVim.pick()()",
-                desc = " Find File",
-                icon = " ",
-                key = "f",
-            },
-            {
-                action = "ene | startinsert",
-                desc = " New File",
-                icon = " ",
-                key = "n",
+                action = 'lua require("persistence").load()',
+                desc = " Restore Session",
+                icon = " ",
+                key = "s",
             },
             {
                 action = 'lua LazyVim.pick("oldfiles")()',
                 desc = " Recent Files",
                 icon = " ",
                 key = "r",
+            },
+            {
+                action = "lua LazyVim.pick()()",
+                desc = " Find File",
+                icon = " ",
+                key = "f",
             },
             {
                 action = 'lua LazyVim.pick("live_grep")()',
@@ -42,12 +42,6 @@ return {
                 desc = " Config",
                 icon = " ",
                 key = "c",
-            },
-            {
-                action = 'lua require("persistence").load()',
-                desc = " Restore Session",
-                icon = " ",
-                key = "s",
             },
         }
         opts.config.footer = function()

@@ -7,17 +7,14 @@ foo.*
 *.log
 data
 
-# scoop
-scoop/
+*.bak
 
-# .scripts
-.scripts/
-
-# .history
-.history/
-
-# .condarc
 .condarc
 
-# .gitconfig
+scoop/
+
+.scripts/
+
+.history/
+
 .gitconfig
