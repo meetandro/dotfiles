@@ -1,6 +1,7 @@
 # Alias
 sal vim nvim -Scope Global
 sal g git -Scope Global
+sal lg lazygit -Scope Global
 
 # Oh My Posh
 oh-my-posh init pwsh --config "$env:CUSTOM_POSH_THEMES_PATH\meetandro.omp.json" | Invoke-Expression
