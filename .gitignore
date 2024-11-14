@@ -9,12 +9,12 @@ data
 
 *.bak
 
-.condarc
-
-scoop/
+.history/
 
 .scripts/
 
-.history/
+scoop/
+
+.condarc
 
 .gitconfig
