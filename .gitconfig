@@ -1,0 +1,9 @@
+[core]
+	editor = nvim
+	excludesFile = ~/.gitignore
+[alias]
+	s = status
+	co = checkout
+	br = branch
+[include]
+    path = ~/.gitconfig.local
