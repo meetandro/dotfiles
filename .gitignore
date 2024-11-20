@@ -7,8 +7,6 @@ foo.*
 *.log
 data
 
-*.bak
-
 .condarc
 
 .history/
