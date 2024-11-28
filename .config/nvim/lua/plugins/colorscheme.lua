@@ -1,4 +1,4 @@
---[====[return {
+return {
   "tokyonight.nvim",
   opts = {
     transparent = true,
@@ -7,15 +7,17 @@
       floats = "transparent",
     },
   },
-}--]====]
+}
 
-return {
-  "briones-gabriel/darcula-solid.nvim",
-  dependencies = { { "rktjmp/lush.nvim", opts = {} } },
+--[[return {
+  {
+    "briones-gabriel/darcula-solid.nvim",
+    dependencies = { "rktjmp/lush.nvim" },
+  },
   {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "darcula-solid",
     },
   },
-}
+}--]]

@@ -3,6 +3,10 @@ return {
   config = function()
     local dap = require("dap")
 
+    -- DAP Breakpoint Customization
+    vim.fn.sign_define("DapBreakpoint", { text = "🔴", texthl = "", linehl = "", numhl = "" })
+
+    -- netcoredbg path
     dap.adapters.coreclr = {
       type = "executable",
       command = vim.fn.stdpath("data") .. "/mason/packages/netcoredbg/netcoredbg/netcoredbg.exe",

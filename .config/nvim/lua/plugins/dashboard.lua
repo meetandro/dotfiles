@@ -14,6 +14,12 @@ return {
     opts.config.header = vim.split(logo, "\n")
     opts.config.center = {
       {
+        action = 'lua require("telescope").extensions.projects.projects({})',
+        desc = " Recent Projects",
+        icon = " ",
+        key = "p",
+      },
+      {
         action = 'lua require("persistence").load()',
         desc = " Restore Session",
         icon = " ",
