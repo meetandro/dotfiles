@@ -1,8 +1,8 @@
-![nvim home screenshot](./images/nvim-home.png)
+![nvim home screenshot](./images/nvim-home-dark.png)
 
-![nvim config screenshot](./images/nvim-config.png)
+![nvim config screenshot](./images/nvim-config-dark.png)
 
-![powershell theme screenshot](./images/powershell-theme.png)
+![powershell theme screenshot](./images/powershell-theme-dark.png)
 
 ## Box Contents
 

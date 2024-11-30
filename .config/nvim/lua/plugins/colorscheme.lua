@@ -1,15 +1,4 @@
 return {
-  "tokyonight.nvim",
-  opts = {
-    transparent = true,
-    styles = {
-      sidebars = "transparent",
-      floats = "transparent",
-    },
-  },
-}
-
---[[return {
   {
     "briones-gabriel/darcula-solid.nvim",
     dependencies = { "rktjmp/lush.nvim" },
@@ -20,4 +9,4 @@ return {
       colorscheme = "darcula-solid",
     },
   },
-}--]]
+}
