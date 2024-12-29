@@ -3,11 +3,12 @@ return {
   event = "VimEnter",
   opts = function(_, opts)
     local logo = [[
-        ███╗   ███╗███████╗███████╗████████╗ █████╗ ███╗   ██╗██████╗ ██████╗  ██████╗ 
-        ████╗ ████║██╔════╝██╔════╝╚══██╔══╝██╔══██╗████╗  ██║██╔══██╗██╔══██╗██╔═══██╗
-        ██╔████╔██║█████╗  █████╗     ██║   ███████║██╔██╗ ██║██║  ██║██████╔╝██║   ██║
-        ██║╚██╔╝██║██╔══╝  ██╔══╝     ██║   ██╔══██║██║╚██╗██║██║  ██║██╔══██╗██║   ██║
-        ██║ ╚═╝ ██║███████╗███████╗   ██║   ██║  ██║██║ ╚████║██████╔╝██║  ██║╚██████╔╝
+██╗   ██╗██╗
+██║   ██║██║
+██║   ██║██║
+╚██╗ ██╔╝██║
+ ╚████╔╝ ██║
+  ╚═══╝  ╚═╝
         ]]
 
     logo = string.rep("\n", 5) .. logo .. "\n\n\n\n"
@@ -15,37 +16,31 @@ return {
     opts.config.center = {
       {
         action = 'lua require("persistence").load()',
-        desc = " Restore Session",
+        desc = " Last Session",
         icon = " ",
         key = "s",
       },
       {
-        action = 'lua require("telescope").extensions.projects.projects({})',
-        desc = " Recent Projects",
-        icon = " ",
-        key = "p",
-      },
-      {
         action = 'lua LazyVim.pick("oldfiles")()',
-        desc = " Recent Files",
+        desc = " Recents",
         icon = " ",
         key = "r",
       },
       {
         action = "lua LazyVim.pick()()",
-        desc = " Find File",
+        desc = " File Search",
         icon = " ",
         key = "f",
       },
       {
         action = 'lua LazyVim.pick("live_grep")()',
-        desc = " Find Text",
+        desc = " Text Search",
         icon = " ",
         key = "g",
       },
       {
         action = "lua LazyVim.pick.config_files()()",
-        desc = " Config",
+        desc = " Configuration",
         icon = " ",
         key = "c",
       },
