@@ -1,12 +1,11 @@
 return {
   {
-    "briones-gabriel/darcula-solid.nvim",
-    dependencies = { "rktjmp/lush.nvim" },
+    "rebelot/kanagawa.nvim",
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "darcula-solid",
+      colorscheme = "kanagawa-dragon",
     },
   },
 }

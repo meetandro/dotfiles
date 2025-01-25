@@ -1,6 +1,6 @@
-![nvim home screenshot](./images/nvim-home-dark.png)
+![nvim home screenshot](./images/nvim-home-kanagawa.png)
 
-![nvim config screenshot](./images/nvim-config-dark.png)
+![nvim config screenshot](./images/nvim-config-kanagawa.png)
 
 ![powershell theme screenshot](./images/powershell-theme-dark.png)
 
@@ -24,7 +24,7 @@
   - ripgrep & fd (for searching)
 - [Git](https://git-scm.com/)
 
-## Details
+## Appendix
 
 The Neovim config is built on top of the [LazyVim](https://www.lazyvim.org/) setup.
 
