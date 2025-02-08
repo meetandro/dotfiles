@@ -1,6 +1,5 @@
 # Alias
 sal vi nvim -Scope Global
-sal vim nvim -Scope Global
 sal g git -Scope Global
 sal lg lazygit -Scope Global
 
@@ -12,4 +11,3 @@ Import-Module -Name Terminal-Icons
 
 # PSReadLine
 Set-PSReadLineOption -PredictionViewStyle ListView
-Set-PSReadLineOption -EditMode Emacs
