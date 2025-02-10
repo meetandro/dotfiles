@@ -1,6 +1,6 @@
-![nvim home screenshot](./images/nvim-home-kanagawa.png)
+![nvim home screenshot](./images/nvim-home-dark.png)
 
-![nvim config screenshot](./images/nvim-config-kanagawa.png)
+![nvim config screenshot](./images/nvim-config-dark.png)
 
 ![powershell theme screenshot](./images/powershell-theme-dark.png)
 
