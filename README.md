@@ -20,8 +20,10 @@
   - [starship](https://starship.rs/) (prompt)
   - lazygit
   - neovim
+  - winfetch
   - gcc & nodejs-lts (for neovim)
   - ripgrep & fd (for searching)
+  - 7zip
 - [Git](https://git-scm.com/)
 
 ## Appendix

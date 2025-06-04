@@ -13,7 +13,7 @@ Import-Module -Name Terminal-Icons
 # PSReadLine
 Set-PSReadLineOption -PredictionViewStyle ListView
 
-# List excluding dotfiles/folders
+# Utility function to list files/directories not starting with a dot
 function list {
-    Get-ChildItem | Where-Object { !($_.Name -like '.*') }
+    Get-ChildItem | Where-Object -Property Name -NotLike '.*'
 }

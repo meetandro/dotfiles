@@ -31,3 +31,9 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.keymap.set("n", "<leader>cV", ":below split|term python -m venv .venv<CR>", { desc = "Create VirtualEnv" })
   end,
 })
+
+-- Set cursor to blinking bar on exit
+vim.api.nvim_create_autocmd("VimLeave", {
+  desc = "Set cursor to blinking bar on exit",
+  command = "set guicursor=a:ver20-blinkon500-blinkoff500",
+})
