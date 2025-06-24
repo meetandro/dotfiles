@@ -20,9 +20,11 @@
   - [starship](https://starship.rs/) (prompt)
   - lazygit
   - neovim
+  - jetbrainsmono
   - winfetch
   - gcc & nodejs-lts (for neovim)
   - ripgrep & fd (for searching)
+  - sqlite
   - 7zip
 - [Git](https://git-scm.com/)
 
