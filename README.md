@@ -24,7 +24,7 @@
   - winfetch
   - gcc & nodejs-lts (for neovim)
   - ripgrep & fd (for searching)
-  - sqlite
+  - python & sqlite
   - 7zip
 - [Git](https://git-scm.com/)
 
