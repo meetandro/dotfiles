@@ -1,8 +1,30 @@
-$modules = @("z", "Terminal-Icons")
+$modules = @(
+    "z",
+    "Terminal-Icons"
+)
 
-$buckets = @("main", "extras", "nerd-fonts")
+$buckets = @(
+    "main",
+    "extras",
+    "versions",
+    "nerd-fonts"
+)
 
 $apps = @(
-    "7zip", "dark", "fd", "gcc", "git", "JetBrainsMono-NF-Mono", "lazygit", "neovim",
-    "nodejs-lts", "python", "ripgrep", "sqlite", "starship", "winfetch"
+    "7zip",
+    "dark",
+    "dotnet-sdk-lts",
+    "fd",
+    "gcc",
+    "git",
+    "jetbrains-toolbox",
+    "JetBrainsMono-NF-Mono",
+    "lazygit",
+    "miniconda3",
+    "neovim",
+    "nodejs-lts",
+    "ripgrep",
+    "sqlite",
+    "starship",
+    "winfetch"
 )
