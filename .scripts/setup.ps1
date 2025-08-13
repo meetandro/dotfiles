@@ -37,9 +37,9 @@ $apps = @(
     "jetbrains-toolbox",
     "JetBrainsMono-NF-Mono",
     "lazygit",
-    "miniconda3",
     "neovim",
     "nodejs-lts",
+    "python",
     "ripgrep",
     "starship",
     "winfetch"
