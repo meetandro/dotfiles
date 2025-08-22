@@ -2,6 +2,7 @@
 
 - Neovim config
 - PowerShell config
+- Windows Terminal config
 - Starship config
 - Git config
 - PowerShell & Scoop setup scripts
